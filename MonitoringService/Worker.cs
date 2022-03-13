@@ -1,5 +1,3 @@
-
-
 namespace MonitoringService
 {
     public class Worker : BackgroundService
