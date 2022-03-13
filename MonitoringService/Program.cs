@@ -5,6 +5,7 @@ using Serilog;
 
 IHost host = Host.CreateDefaultBuilder(args)
 
+    .UseWindowsService()
     .UseSerilog()
     .ConfigureServices((hostContext, services) =>
     {
